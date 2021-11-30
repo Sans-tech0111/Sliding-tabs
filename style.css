@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(255, 191, 71),rgb(71, 181, 255));
+    height: 100vh;
+    overflow:hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+    overflow:hidden;
+}
+
+.tabs{
+    margin: 2rem;
+}
+hr{
+    color: black;
+    width:90%;
+    border-top: 2px solid black;
+}
+.btn:hover{
+    background-color: azure;
+    color: black;
+    border: 1px solid black;
+}
+.btn{
+    width: 13rem;
+    height: 3rem;
+    color: azure;
+    margin-top: 1rem;
+    background-color:rgb(255, 191, 71) ;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: none;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.tabs button{
+    outline: none;
+    border: none;
+    background-color: azure;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.tabs button:hover{
+    color: rgb(255, 191, 71);
+}
+
+.fab{
+    margin-right: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow:hidden;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    transform: translateX(130%);
+    overflow:hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.title{
+    color: rgb(255, 191, 71);
+}
+
+.fab{
+    color: rgb(255, 191, 71);
+}
+p{
+    margin-top: 2rem;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    font-size: 27px;
+}
+
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+#content-1{
+    transform: translateX(0);
+}
+#btn1{
+    color:rgb(255, 191, 71) ;
+}

@@ -117,3 +117,33 @@ img{
 #btn1{
     color:rgb(255, 191, 71) ;
 }
+
+@media(max-width:633px){
+    .tabs button{
+        outline: none;
+        border: none;
+        background-color: azure;
+        margin-left: 2rem;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    .tabs button h1{
+        font-size: 15px;
+    }
+    .content-left{
+        font-size: 17px;
+    }
+    img{
+        display: none;
+        height: 200px;
+        width: 200px;
+    }
+    .content-left h1{
+        font-size: 17px;
+    }
+    .btn{
+        width: 7rem;
+        height: 1.7rem;
+        font-size: 14px;
+    }
+}
